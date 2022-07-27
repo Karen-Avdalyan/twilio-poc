@@ -1,0 +1,76 @@
+.EmailContainer {
+    display: flex;
+    .emailService {
+        width: 450px;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #200303;
+        color: white;
+
+        h1 {
+            margin: 20px 0 0;
+            color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            Input {
+                text-align: center;
+                border-radius: 5px;
+                background-color: #200303;
+                color: white;
+            }
+
+            label {
+                font-size: 1.5em;
+                margin-top: 15px;
+            }
+        }
+
+        Button {
+            margin: 20px 0;
+        }
+    }
+
+    .template {
+        width: 450px;
+        margin: 20px 0 20px 165px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #200303;
+        color: white;
+
+        h1 {
+            margin: 20px 0 0;
+            color: white;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            Input {
+                text-align: center;
+                border-radius: 5px;
+                background-color: #200303;
+                color: white;
+            }
+
+            label {
+                font-size: 1.5em;
+                margin-top: 15px;
+            }
+        }
+
+        Button {
+            margin: 20px 0;
+        }
+    }
+}
